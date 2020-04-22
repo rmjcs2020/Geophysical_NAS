@@ -1,0 +1,30 @@
+Jobid: 429737
+qsub -n 1 -t 10 -A datascience -q debug-cache-quad theta_metadata.sh
+Tue Apr 21 21:42:58 2020 +0000 (UTC) submitted with cwd set to: /lus/theta-fs0/projects/datascience/rmaulik/NAS_PINN/theta_metadata
+jobid 429737 submitted from terminal /dev/pts/69
+2020-04-21 22:43:29,274 INFO: Starting Resource_Prologue
+2020-04-21 22:43:29,303 DEBUG: no enabling attribute found
+2020-04-21 22:43:29,303 INFO: Resource_Prologue finished with exit code 0
+Tue Apr 21 22:43:50 2020 +0000 (UTC) 
+Tue Apr 21 22:43:50 2020 +0000 (UTC) Command: '/lus/theta-fs0/projects/datascience/rmaulik/NAS_PINN/theta_metadata/theta_metadata.sh'
+Tue Apr 21 22:43:50 2020 +0000 (UTC) 
+Tue Apr 21 22:43:50 2020 +0000 (UTC) Environment:
+Tue Apr 21 22:43:50 2020 +0000 (UTC) COBALT_PARTCORES=64
+Tue Apr 21 22:43:50 2020 +0000 (UTC) SHELL=/bin/bash
+Tue Apr 21 22:43:50 2020 +0000 (UTC) COBALT_PROJECT=datascience
+Tue Apr 21 22:43:50 2020 +0000 (UTC) COBALT_PARTNAME=3834
+Tue Apr 21 22:43:50 2020 +0000 (UTC) COBALT_JOBID=429737
+Tue Apr 21 22:43:50 2020 +0000 (UTC) COBALT_STARTTIME=1587508999
+Tue Apr 21 22:43:50 2020 +0000 (UTC) LOGNAME=rmaulik
+Tue Apr 21 22:43:50 2020 +0000 (UTC) USER=rmaulik
+Tue Apr 21 22:43:50 2020 +0000 (UTC) COBALT_ENDTIME=1587509599
+Tue Apr 21 22:43:50 2020 +0000 (UTC) COBALT_PARTSIZE=1
+Tue Apr 21 22:43:50 2020 +0000 (UTC) HOME=/home/rmaulik
+Tue Apr 21 22:43:50 2020 +0000 (UTC) COBALT_JOBSIZE=1
+Tue Apr 21 22:43:50 2020 +0000 (UTC) COBALT_QUEUE=debug-cache-quad
+Tue Apr 21 22:43:50 2020 +0000 (UTC) 
+Tue Apr 21 22:43:50 2020 +0000 (UTC) Info: stdin received from /dev/null
+Tue Apr 21 22:43:50 2020 +0000 (UTC) Info: stdout sent to /lus/theta-fs0/projects/datascience/rmaulik/NAS_PINN/theta_metadata/429737.output
+Tue Apr 21 22:43:50 2020 +0000 (UTC) Info: stderr sent to /lus/theta-fs0/projects/datascience/rmaulik/NAS_PINN/theta_metadata/429737.error
+Tue Apr 21 22:43:50 2020 +0000 (UTC) 
+Tue Apr 21 22:45:10 2020 +0000 (UTC) Info: task completed normally with an exit code of 0; initiating job cleanup and removal

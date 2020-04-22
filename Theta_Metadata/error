@@ -1,0 +1,45 @@
++ lsb_release -a
++ uname -a
++ lscpu
++ cat /proc/meminfo
++ inxi -F -c0
+/var//opt/cray/alps/spool/20676245/sc_data.sh: line 14: inxi: command not found
++ lsblk -a
++ lsscsi -s
++ module list
+++ /opt/cray/pe/modules/3.2.11.3/bin/modulecmd bash list
+Currently Loaded Modulefiles:
+  1) modules/3.2.11.3
+  2) alps/6.6.43-6.0.7.1_5.51__ga796da32.ari
+  3) udreg/2.3.2-6.0.7.1_5.15__g5196236.ari
+  4) ugni/6.0.14.0-6.0.7.1_3.15__gea11d3d.ari
+  5) gni-headers/5.0.12.0-6.0.7.1_3.13__g3b1768f.ari
+  6) dmapp/7.1.1-6.0.7.1_6.6__g45d1b37.ari
+  7) xpmem/2.2.15-6.0.7.1_5.13__g7549d06.ari
+  8) llm/21.3.530-6.0.7.1_5.4__g3b4230e.ari
+  9) nodehealth/5.6.14-6.0.7.1_8.50__gd6a82f3.ari
+ 10) system-config/3.5.2794-6.0.7.1_9.1__g651274ab.ari
+ 11) Base-opts/2.4.135-6.0.7.1_5.6__g718f891.ari
+ 12) intel/19.0.5.281
+ 13) craype-network-aries
+ 14) craype/2.6.1
+ 15) cray-libsci/19.06.1
+ 16) pmi/5.0.14
+ 17) atp/2.1.3
+ 18) rca/2.2.18-6.0.7.1_5.52__g2aa4f39.ari
+ 19) perftools-base/7.0.5
+ 20) PrgEnv-intel/6.0.5
+ 21) craype-mic-knl
+ 22) cray-mpich/7.7.10
+ 23) nompirun/nompirun
+ 24) darshan/3.1.8
+ 25) trackdeps
+ 26) xalt
+ 27) miniconda-3.6/conda-4.5.12
++ eval
++ nvidia-smi
++ cat
++ lshw -short -quiet -sanitize
+/var//opt/cray/alps/spool/20676245/sc_data.sh: line 19: lshw: command not found
++ lspci
+/var//opt/cray/alps/spool/20676245/sc_data.sh: line 19: lspci: command not found
