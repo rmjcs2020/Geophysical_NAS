@@ -1,4 +1,6 @@
-# NAS_RNN_Submission
+
+[![DOI](https://zenodo.org/badge/258007645.svg)](https://zenodo.org/badge/latestdoi/258007645)
+# Geophysical_NAS
 Case setup for "Recurrent Neural Network Architecture Search for Geophysical Emulation" - Submission to ISC 2020. 
 
 In the following - we shall outline how to install DeepHyper on your local machine to assess a trial evaluation for LSTM architecture search.
