@@ -3,7 +3,7 @@
 # Geophysical_NAS
 Case setup for "Recurrent Neural Network Architecture Search for Geophysical Emulation" - Submission to The International Conference for High Performance Computing, Networking, Storage, and Analysis, 2020.
 
-In the following - we shall outline how to install DeepHyper on your local machine to assess a trial evaluation for LSTM architecture search.
+In the following - we shall outline how to install DeepHyper on your local machine to assess a trial evaluation for LSTM architecture search. This code is compatible with Deephyper 0.1.2 - Please reach out to the authors for assistance on the latest versions.
 
 # Installation instructions
 
